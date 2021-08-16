@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container-box div{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.container-box .titulo{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+h2{
+    margin: 5px 0;
+}
+textarea{
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    min-height: 200px;
+    max-height: 200px;
+    outline: none;
+    padding: 10px;
+}
